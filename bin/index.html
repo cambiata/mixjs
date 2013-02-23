@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang=en>
+<head>
+	<meta charset=utf-8 />
+	<meta http-equiv=X-UA-Compatible content=IE=edge>
+	<meta property=og:title content=Mix.js />
+	<meta property=og:description content="A Google Chrome Experiment for mixing multitrack audio" />
+	<meta property=og:image content=http://www.kevincennis.com/mix/assets/img/mixthumb.jpg />
+	<meta name=medium content=blog />
+	<title>Mix.js</title>
+	<link rel=stylesheet href=assets/css/style.css type=text/css media=screen />
+</head>
+<body>
+
+	<h3>Loading audio tracks</h3>
+	
+	<div id=progress-outer>
+		<div id=progress-inner></div>
+	</div>
+		
+	<div id=mixer>
+		<div id=meters>
+			<div class=vu>
+				<div class=mask><div class="needle left"></div></div>
+				<p class=vu-label>L</p>
+			</div>
+			<div class=vu>
+				<div class=mask><div class="needle right"></div></div>
+				<p class=vu-label>R</p>
+			</div>
+		</div>
+	</div>
+	
+	
+	<br/>
+	
+	
+	<div id=fb-root></div>
+		
+	<script src=assets/js/jquery-1.7.min.js></script>
+	<script src=assets/js/Mix.js></script>
+	<script src=assets/js/app.js></script>
+
+</body>
+</html>
